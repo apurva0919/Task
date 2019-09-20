@@ -1,0 +1,17 @@
+//Create table
+
+CREATE TABLE `ItemsDB`.`Items` (
+  `idItem` INT NOT NULL AUTO_INCREMENT,
+  `ItemTitle` VARCHAR(45) NULL,
+  `ItemPrice` VARCHAR(45) NULL,
+  `ItemDescription` VARCHAR(45) NULL,
+  `ItemImage` VARCHAR(45) NULL,
+  `ItemLikes` INT NULL,
+  PRIMARY KEY (`idItem`));
+
+
+//INSERT VALUES
+
+
+Insert into Items(ItemTitle, ItemPrice, ItemDescription, ItemImage, ItemLikes) values("Item1","$10","This is a product
+", "Image Link", 10)
